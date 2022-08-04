@@ -24,9 +24,9 @@ export default factories.createCoreController('api::restaurant.restaurant', ({ s
         return { data, meta };
     },
 
-    async create(ctx) {
-        console.log("updated", "---------------------------------------");
-    }
+    // async create(ctx) {
+    //     console.log("updated", "---------------------------------------");
+    // }
 
 })
 )

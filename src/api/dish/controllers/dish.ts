@@ -4,4 +4,8 @@
 
 import { factories } from '@strapi/strapi'
 
-export default factories.createCoreController('api::dish.dish');
+export default factories.createCoreController('api::dish.dish', ({ strapi }) => ({
+    async trial() {
+        console.log("runnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn");
+    }
+}));

@@ -17,7 +17,7 @@ exports.default = strapi_1.factories.createCoreController('api::restaurant.resta
         meta.date = Date.now();
         return { data, meta };
     },
-    async create(ctx) {
-        console.log("updated", "---------------------------------------");
-    }
+    // async create(ctx) {
+    //     console.log("updated", "---------------------------------------");
+    // }
 }));
